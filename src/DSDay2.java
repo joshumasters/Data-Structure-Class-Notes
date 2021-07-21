@@ -4,10 +4,10 @@ import java.util.Queue;
 import java.util.Stack;
 
 public class DSDay2 {
-
+//    ArrayList:
 //    {5, 4, 3, 6, 7}
-
-//    {value: 5 next: 1} -> {value: 8 next: 2} -> {value: 4 next: null}
+//    Linked List:
+//    {value: 5 next: nextNode} -> {value: 8 next: nextNode} -> {value: 4 next: null}
 
     // ArrayLists are faster at searching and sorting
     // Linked Lists are faster at adding and removing data
@@ -27,20 +27,20 @@ public class DSDay2 {
 //        [     1 2 3]
 //       <- [       2 3]
 
-        Queue<Integer> q = new LinkedList<>();
-        q.add(3);
-        q.add(6);
-        q.add(8);
-        q.add(9);
-        System.out.println(q.toString());
-        q.remove();
-        System.out.println(q.toString());
-        int removedNum = q.remove();
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(3);
+        queue.add(6);
+        queue.add(8);
+        queue.add(9);
+        System.out.println(queue.toString());
+        queue.remove();
+        System.out.println(queue.toString());
+        int removedNum = queue.remove();
         System.out.println(removedNum);
-        System.out.println(q.toString());
-        int peekedValue = q.peek();
+        System.out.println(queue.toString());
+        int peekedValue = queue.peek();
         System.out.println(peekedValue);
-        System.out.println(q.toString());
+        System.out.println(queue.toString());
 
         //Netflix Queue for Legally Blonde
         //{Jerry}
