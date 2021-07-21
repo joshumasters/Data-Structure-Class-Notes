@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Workspace {
+public class DSDay1 {
     public static void main(String[] args) {
 
         String[] arr = {"John", "Michelle", "Tommy"};
@@ -48,6 +48,29 @@ public class Workspace {
         }
 
 
+
+        // EXAMPLE LAB 1
+//        ArrayList<Integer> arr = new ArrayList<>();
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("Input" numbers");
+//        while(arr.size() < size){
+//            arr.add(scan.nextInt());
+//            System.out.println("Input next number");
+//        }
+//        int highest = arr.get(0);
+//        int lowest =  arr.get(0);
+//        int product = 1;
+//        int sum = 0;
+//        for(int val: arr){
+//            if(val > highest) {
+//                highest = val;
+//            } else if(val < lowest){
+//                lowest = val;
+//            }
+//            product *= val;
+//            sum += val;
+//        }
+//        System.out.println("Highest: " + highest + " Lowest: " + lowest + " Product: " + product + " Sum: " + sum);
     }
 
 }
